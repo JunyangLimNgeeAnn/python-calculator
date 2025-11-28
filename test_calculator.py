@@ -28,7 +28,7 @@ def test_divide():
     assert divide(-10, 2) == -5
 
 def test_power():
-    assert power(10, 10) == 100
+    assert power(10, 10) == 10000000000
     assert power(4, 4)==16
     assert power(-5 , -5) ==25
 
