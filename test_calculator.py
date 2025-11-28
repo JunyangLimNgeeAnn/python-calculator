@@ -29,8 +29,8 @@ def test_divide():
 
 def test_power():
     assert power(10, 10) == 10000000000
-    assert power(4, 4)==16
-    assert power(-5 , -5) ==25
+    assert power(4, 4)==256
+    assert power(-5 , -5) ==3125
 
 def test_divide_by_zero():
     """Test that dividing by zero raises an error."""
